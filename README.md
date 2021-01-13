@@ -1,7 +1,7 @@
-# DESCrypt
-DES加密解密
-### 中文会出现乱码，需要用Base64解码
-### 代码如下
+# DESCrypt-kotlin
+kotlin语言的DES加密解密
+### 中文会出现乱码，需要用java8自带的Base64解码
+### kotlin代码如下
 ```
 object DESCrypt{
     //des加密

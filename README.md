@@ -3,6 +3,12 @@ kotlin语言的DES加密解密
 ### 中文会出现乱码，需要用java8自带的Base64解码
 ### kotlin代码如下
 ```
+import java.security.Key
+import java.util.*
+import javax.crypto.Cipher
+import javax.crypto.SecretKeyFactory
+import javax.crypto.spec.DESKeySpec
+
 object DESCrypt{
     //des加密
     fun encrypt(input:String,password:String): String {
